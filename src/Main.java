@@ -35,14 +35,13 @@ public class Main {
 
     // 첫번째 미션 : 레일 순서 정하기
     static void dfs(int[] railOrder, int count) {
-
 //        for(int i=0; i<railOrder.length; i++){
 //            System.out.println(i + " " + railOrder[i] + " " + count);
 //        }
 //        System.out.println();
 
         if(count == n) {    // railOrder 가 꽉 채워져서 n개의 레일의 순서가 모두 정해졌다면
-            int w = calWeight(railOrder);   // 바구니제한m과 k횟수로 최소무게 구하러 가자
+            int w = calWeight(railOrder);   // 바구니제한m과 k횟수로 최소무게 구하러 가자!
             dap = Math.min(w, dap);
             return;
         }
