@@ -1,8 +1,10 @@
-import java.io.*;
-import java.sql.SQLOutput;
-import java.util.*;
+package softeer;
 
-public class Main {
+import java.io.*;
+import java.util.Arrays;
+import java.util.StringTokenizer;
+
+public class 슈퍼컴퓨터클러스터 {
 
     public static long dap = 0;
 
