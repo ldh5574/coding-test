@@ -1,7 +1,11 @@
-import java.io.*;
-import java.util.*;
+package softeer;
 
-public class Main {
+import java.io.*;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.StringTokenizer;
+
+public class 업무처리 {
 
     public static long dap = 0;
 
