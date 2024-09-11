@@ -1,7 +1,10 @@
-import java.io.*;
-import java.util.*;
+package etc;
 
-public class Main {
+import java.io.*;
+import java.util.Arrays;
+import java.util.StringTokenizer;
+
+public class FractionalKanpsackProblem {
 
     public static float dap = 0;
     public static int n, k, m;
