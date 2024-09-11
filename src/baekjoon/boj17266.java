@@ -1,7 +1,9 @@
-import java.io.*;
-import java.util.*;
+package baekjoon;
 
-public class Main {
+import java.io.*;
+import java.util.StringTokenizer;
+
+public class boj17266 {
 
     public static long dap = 0;
     public static long n;
